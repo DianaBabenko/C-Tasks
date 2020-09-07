@@ -6,8 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Task17 task1 = new Task17();
-            task1.Main17();
+            Task23 task1 = new Task23();
+            task1.SetNumerator();
+            task1.SetDenominator();
         }
     }
 }
