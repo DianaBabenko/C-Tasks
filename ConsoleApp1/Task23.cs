@@ -10,50 +10,49 @@ namespace ConsoleApp1
         public void SetNumerator()
         {
             Console.Write("Введіть чисельник: ");
-            this.Numerator = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(this.Numerator);
+            Numerator = Convert.ToDouble(Console.ReadLine());
         }
 
         public void SetDenominator()
         {
             Console.Write("Введіть знаменник: ");
-            this.Denominator = Convert.ToInt32(Console.ReadLine()); 
+            Denominator = Convert.ToInt32(Console.ReadLine()); 
         }
 
         public double GetNumerator()
         {
-            Console.WriteLine(this.Numerator);
-            return this.Numerator;
+            Console.WriteLine(Numerator);
+            return Numerator;
         }
 
         public double GetDenominator()
         {
-            Console.WriteLine(this.Numerator);
-            return this.Denominator;
+            Console.WriteLine(Numerator);
+            return Denominator;
         }
 
         public double NumbersSum()
         {
-            Console.WriteLine(this.Numerator + this.Denominator);
-            return this.Numerator + this.Denominator;
+            Console.WriteLine(Numerator + Denominator);
+            return Numerator + Denominator;
         }
 
         public double MultiplicationNumbers()
         {
-            Console.WriteLine(this.Numerator * this.Denominator);
-            return this.Numerator * this.Denominator;
+            Console.WriteLine(Numerator * Denominator);
+            return Numerator * Denominator;
         }
 
         public double NumbersDifference()
         {
-            Console.WriteLine(this.Numerator - this.Denominator);
-            return this.Numerator - this.Denominator;
+            Console.WriteLine(Numerator - Denominator);
+            return Numerator - Denominator;
         }
 
         public double DivisionNumbers()
         {
-            Console.WriteLine(this.Numerator / this.Denominator);
-            return this.Numerator / this.Denominator;
+            Console.WriteLine(Numerator / Denominator);
+            return Numerator / Denominator;
         }
     }
 }

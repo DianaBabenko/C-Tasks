@@ -9,6 +9,7 @@ namespace ConsoleApp1
             Task23 task1 = new Task23();
             task1.SetNumerator();
             task1.SetDenominator();
+            task1.NumbersDifference();
         }
     }
 }
