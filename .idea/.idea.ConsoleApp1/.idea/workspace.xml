@@ -9,6 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53322c83-2323-4ca9-9bce-7c8e8f0f4199" name="Default Changelist" comment="create class">
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Fraction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Task24.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Task25.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Task26.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Task27.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Task28.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Task29.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Task30.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/Task23.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Task23.cs" afterDir="false" />
     </list>
@@ -19,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9EE8EE86-E367-481B-BF0E-11BEFE86882F/29/Math.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,8 +58,15 @@
         <option value="$PROJECT_DIR$/ConsoleApp1/Task20.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Task21.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Task22.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApp1/Task23.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Program.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Task23.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Task24.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Task25.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Task26.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Task27.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Task28.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Task29.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Task30.cs" />
       </list>
     </option>
   </component>
@@ -59,6 +79,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -89,7 +115,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599401983486</updated>
-      <workItem from="1599402000931" duration="14091000" />
+      <workItem from="1599402000931" duration="14636000" />
+      <workItem from="1599928289003" duration="3511000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1599414738644</created>
@@ -119,13 +146,20 @@
       <option name="project" value="LOCAL" />
       <updated>1599461947738</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create class">
+      <created>1599462161510</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599462161510</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -137,6 +171,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -149,26 +184,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1599404044286" />
-    <state width="1398" height="138" key="GridCell.Tab.0.bottom" timestamp="1599461950340">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="930" height="117" key="GridCell.Tab.0.bottom" timestamp="1599929742739">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="138" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599461950340" />
-    <state width="967" height="2" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1599459184518" />
-    <state width="1398" height="138" key="GridCell.Tab.0.center" timestamp="1599461950339">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="967" height="2" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599470039703" />
+    <state width="930" height="117" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1599929742739" />
+    <state width="930" height="117" key="GridCell.Tab.0.center" timestamp="1599929742738">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="138" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599461950339" />
-    <state width="967" height="2" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1599459184517" />
-    <state width="1398" height="138" key="GridCell.Tab.0.left" timestamp="1599461950339">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="967" height="2" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599470039702" />
+    <state width="930" height="117" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1599929742738" />
+    <state width="930" height="117" key="GridCell.Tab.0.left" timestamp="1599929742737">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="138" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599461950339" />
-    <state width="967" height="2" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1599459184517" />
-    <state width="1398" height="138" key="GridCell.Tab.0.right" timestamp="1599461950340">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="967" height="2" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599470039701" />
+    <state width="930" height="117" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1599929742737" />
+    <state width="930" height="117" key="GridCell.Tab.0.right" timestamp="1599929742738">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="138" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599461950340" />
-    <state width="967" height="2" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1599459184517" />
+    <state width="967" height="2" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599470039702" />
+    <state width="930" height="117" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1599929742738" />
     <state x="347" y="46" key="Rider.ProjectTemplateDialog.Size" timestamp="1599458230403">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
@@ -177,10 +212,10 @@
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="764" y="150" key="RollbackChangesDialog/0.23.1440.819@0.23.1440.819" timestamp="1599410534036" />
-    <state x="320" y="184" key="Vcs.Push.Dialog.v2" timestamp="1599460205635">
-      <screen x="0" y="23" width="1440" height="819" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1599462163701">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599414743463" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599462163701" />
     <state x="320" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1599460205635" />
     <state x="584" y="163" key="search.everywhere.popup" timestamp="1599412973263">
       <screen x="0" y="23" width="1440" height="819" />

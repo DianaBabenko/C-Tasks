@@ -6,10 +6,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Task23 task1 = new Task23();
-            task1.SetNumerator();
-            task1.SetDenominator();
-            task1.NumbersDifference();
+            // Fraction fraction = new Fraction();
+            // fraction.SetNumerator();
+            // fraction.SetDenominator();
+            // fraction.NumbersDifference();
+            Task23 task23 = new Task23();
+            task23.Main23();
         }
     }
 }

@@ -7,6 +7,7 @@
       <e p="ConsoleApp1" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="ConsoleApp1.csproj" t="IncludeRecursive" />
+        <e p="Fraction.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -31,7 +32,14 @@
         <e p="Task21.cs" t="Include" />
         <e p="Task22.cs" t="Include" />
         <e p="Task23.cs" t="Include" />
+        <e p="Task24.cs" t="Include" />
+        <e p="Task25.cs" t="Include" />
+        <e p="Task26.cs" t="Include" />
+        <e p="Task27.cs" t="Include" />
+        <e p="Task28.cs" t="Include" />
+        <e p="Task29.cs" t="Include" />
         <e p="Task3.cs" t="Include" />
+        <e p="Task30.cs" t="Include" />
         <e p="Task4.cs" t="Include" />
         <e p="Task5.cs" t="Include" />
         <e p="Task6.cs" t="Include" />
